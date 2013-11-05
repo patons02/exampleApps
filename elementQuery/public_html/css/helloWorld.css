@@ -1,0 +1,15 @@
+.header {
+    color: red;
+}
+
+.header[min-width~="1100px"] {
+    color: yellow;
+}
+
+.main-container {
+    background-color: white;
+}
+
+.main-container[max-width~="1099px"]{
+    background-color: forestgreen;
+}
