@@ -17,4 +17,7 @@ require.config({
 
 require(['jQuery', 'elementQuery'], function () {
     console.log('Hello world!');
+    
+    //This line loads element query for a single stylesheet
+    window.elementQuery(document.styleSheets[0], true);
 });
